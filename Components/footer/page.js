@@ -22,16 +22,16 @@ export default function Footer() {
         </div>
         <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
           <li>
-            <a href="#"><FaLinkedin className='md:text-3xl text-2xl'/></a>
+            <a href="#"><FaLinkedin className='md:text-3xl text-2xl hover:animate-pulse text-[#0077b5] animate-bounce'/></a>
           </li>
           <li>
-            <a href="#"><FaGithub className='md:text-3xl text-2xl'/></a>
+            <a href="#"><FaGithub className='md:text-3xl text-2xl hover:animate-pulse animate-bounce'/></a>
           </li>
           <li>
-            <a href="#"><FaFacebook className='md:text-3xl text-2xl'/></a>
+            <a href="#"><FaFacebook className='md:text-3xl text-2xl hover:animate-pulse animate-bounce text-blue-600'/></a>
           </li>
           <li>
-            <a href="#"><FaTwitter className='md:text-3xl text-2xl'/></a>
+            <a href="#"><FaTwitter className='md:text-3xl text-2xl hover:animate-pulse animate-bounce text-[#1DA1F2]'/></a>
           </li>
         </ul>
       </div>
